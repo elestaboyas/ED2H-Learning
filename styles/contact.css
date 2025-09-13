@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0000ff;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    header {
+        height: 50px;
+    }
+
+    nav a{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 45px;
+    }
+
+    nav a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 45px;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+}
+
+section {
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color:  #f1f1f1;
+    padding: 1.2rem;
+    border-radius: 6px;
+}
+
+section h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #0000ff;
+}
+
+.form-headings h3{
+    color: #0000ff;
+}
+
+form {
+    width: 30vw;
+}
+
+form label{
+    color: #0000ff;
+    font-size: 1.1rem;
+}
+
+form input{
+    width: 100%;
+    padding: 6px;
+    margin: 3px 0;
+    border-radius: 4px;
+    border: solid;
+    border-width: 1px;
+    border-color: #0000ff;
+    background-color: #f1f1f1;
+}
+
+form textarea{
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #0000ff;
+    padding: 0 6px 36px 6px;
+    margin-top: 3px;
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 88vw;
+        margin: 0 auto;
+        margin-top: 1rem;
+        background-color: #f1f1f1;
+        padding: 1.2rem;
+        border-radius: 6px;
+    }
+
+    section h1{
+        text-align: center;
+        color: #0000ff;
+        font-size: 1.3;
+    }
+
+    .form-headings h3{
+        color: #0000ff;
+    }
+
+    form {
+        width: 50vw;
+    }
+
+    form label{
+        color: #0000ff;
+        font-size: 1.1rem;
+    }
+
+    form input{
+        width: 100%;
+        padding: 6px;
+        margin: 3px 0;
+        border-radius: 4px;
+        border: solid;
+        border-width: 1px;
+        border-color: #0000ff;
+    }
+
+    form textarea{
+        width: 100%;
+        border: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        border-color: #0000ff;
+        padding: 0 6px 36px 6px;
+        margin-top: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        width: 88vw;
+        margin: 0 auto;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    section h1{
+        font-size: 1.3rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .form-headings{
+        font-size: 14px;
+    }
+
+    form label{
+        font-size: 1rem;
+    }
+
+
+    form input {
+        width: 100%;
+        padding: 6px 2px;
+        margin: 2px 0;
+    }
+
+    form textarea{
+        padding: 30px 2px;
+        margin-top: 2px;
+        padding-top: 0;
+    }
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials h3{
+    font-size: 2rem;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.socials a:hover{
+    opacity: 0.5;
+}
+
+.copy-writer p{
+    text-align: center;
+}
+
+.copy-writer {
+width: 100%;
+}
+
+@media (max-width: 768px) {
+    .socials h3{
+        font-size: 1.6rem;
+    }
+
+    .socials a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .socials a{
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+    }
+
+    .socials a:hover{
+        opacity: 0.5;
+    }
+
+    .copy-writer p{
+        text-align: center;
+    }
+
+    .copy-writer {
+    width: 100%;
+    }
+}
